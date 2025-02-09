@@ -509,6 +509,8 @@
     closeButtons.forEach(button => {
         button.addEventListener('click', () => {
             chatContainer.classList.remove('open');
+                    vapiButton.style.display = 'block';
+
         });
     });
 })();
