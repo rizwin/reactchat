@@ -491,14 +491,14 @@
     
     toggleButton.addEventListener('click', () => {
         chatContainer.classList.toggle('open');
-          const vapiButton = document.querySelector('.vapi-support-btn');
+         const vapiButton = document.getElementById('vapi-support-btn');
     if (vapiButton) {
         // Hide the vapi button when the chat container is open,
-        // and show it again when closed.
+        // and show it again when it's closed.
         if (chatContainer.classList.contains('open')) {
             vapiButton.style.display = 'none';
         } else {
-            // Resetting to an empty string will use its original CSS display value
+            // Reset to the default display (or specify a value like 'block' if needed)
             vapiButton.style.display = '';
         }
     }
