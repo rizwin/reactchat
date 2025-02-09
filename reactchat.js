@@ -510,7 +510,7 @@
         button.addEventListener('click', () => {
              const vapiButton = document.getElementById('vapi-support-btn');
             chatContainer.classList.remove('open');
-                    vapiButton.style.display = 'block';
+                    vapiButton.style.display = 'flex';
 
         });
     });
