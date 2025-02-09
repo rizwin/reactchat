@@ -499,7 +499,7 @@
             vapiButton.style.display = 'none';
         } else {
             // Reset to the default display (or specify a value like 'block' if needed)
-            vapiButton.style.display = '';
+            vapiButton.style.display = 'block';
         }
     }
     });
